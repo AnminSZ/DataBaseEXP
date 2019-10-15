@@ -6,15 +6,15 @@ import java.sql.SQLException;
 
 public class BaseDAO {
 /*	private String driver = "com.mysql.cj.jdbc.Driver";
-	// Êı¾İ¿â·ÃÎÊÂ·¾¶
+	// æ•°æ®åº“è®¿é—®è·¯å¾„
 	private String url = "jdbc:mysql://localhost:3306/travel?serverTimezone=UTC&characterEncoding=GBK";
 	private String userName = "root";
-	private String userPassword = "lam1996314";*/
+	private String userPassword = "........";*/
 	private Connection conn;
 	String url="jdbc:Access:///db/travel.mdb";
 	public Connection openDBConnection() {
 		try {
-			//¼ÓÔØJDBC-ODBCÇÅÇı¶¯Àà
+			//åŠ è½½JDBC-ODBCæ¡¥é©±åŠ¨ç±»
 			Class.forName("com.hxtt.sql.access.AccessDriver");		
 //			Class.forName(driver);
 //			conn = DriverManager.getConnection(url,userName,userPassword);
